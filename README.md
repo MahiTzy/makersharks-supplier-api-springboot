@@ -100,6 +100,7 @@ The application uses Swagger for API documentation. You can access the Swagger U
 ```
 http://localhost:8080/swagger-ui/index.html
 ```
+![Screenshot 2024-08-24 at 00-05-44 Swagger UI](https://github.com/user-attachments/assets/5dd7cc86-9f36-437d-b093-b9b7b8373c62)
 
 This will provide a user-friendly interface to explore and test the API endpoints.
 
