@@ -37,8 +37,8 @@ public class MakersharksSupplierApiApplication {
 	CommandLineRunner run(SupplierRepository supplierRepository) {
 		return args -> {
 
-			// hardcoded suppliers to make up to 100 entries
-			for (int i = 1; i <= 100; i++) {
+			// hardcoded suppliers to make up to 500 entries
+			for (int i = 1; i <= 500; i++) {
 				supplierRepository.save(new Supplier(
 						null, "Company" + i,
 						"https://company" + i + ".com",
