@@ -1,10 +1,13 @@
 # Supplier Management Application
 
+## Overview
+
+This application is designed to manage and query suppliers. It includes features for searching suppliers based on various criteria and viewing detailed information about them.
+
 ## Table of Contents
 
-- [Overview](#overview)
+- [Getting Started](#getting-started)
 - [Technologies Used](#technologies-used)
-- [Prerequisites](#prerequisites)
 - [Running the Application](#running-the-application)
 - [H2 Database](#h2-database)
 - [API Documentation with Swagger](#swagger-api-documentation)
@@ -14,9 +17,14 @@
   - [Using cURL](#using-curl)
 - [React Frontend](#react-frontend)
 
-## Overview
+## Getting Started
 
-This application is designed to manage and query suppliers. It includes features for searching suppliers based on various criteria and viewing detailed information about them.
+### Prerequisites
+
+Before running the application, ensure you have the following installed:
+
+- [Java JDK 17](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+- [Maven](https://maven.apache.org/download.cgi)
 
 ## Technologies Used
 
@@ -25,13 +33,6 @@ This application is designed to manage and query suppliers. It includes features
 - **Database**: H2 (in memory database)
 - **Testing**: JUnit5, Mockito
 - **API Documentation**: Swagger (using openApi)
-
-## Prerequisites
-
-Before running the application, ensure you have the following installed:
-
-- [Java JDK 17](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
-- [Maven](https://maven.apache.org/download.cgi)
 
 ## Running the Application
 
